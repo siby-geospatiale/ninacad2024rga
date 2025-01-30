@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_CercledeKolokani_3 = function(feature, resolution){
+var style_NINACADKOLOKANI_1 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -20,7 +20,7 @@ var style_CercledeKolokani_3 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,13,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 2.508}),fill: new ol.style.Fill({color: 'rgba(229,182,54,0.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(26,150,65,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
